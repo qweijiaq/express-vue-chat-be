@@ -1,0 +1,31 @@
+{
+  "name": "express-vue-chat-backend",
+  "version": "1.0.0",
+  "description": "一个即时通讯项目 —— 基于 Express 框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qweijiaq/express-vue-chat-be.git"
+  },
+  "author": "Pony Wei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qweijiaq/express-vue-chat-be/issues"
+  },
+  "homepage": "https://github.com/qweijiaq/express-vue-chat-be#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.11.5",
+    "nodemon": "^3.0.3"
+  }
+}
